@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login Details </title>
+    <style>
+        body {
+            font-family: calibri;
+            margin: 20px;
+            max-width: 400px;
+            border: 1px solid ,lightslategrey;
+            border-radius: 8px;
+            background-color:lightslategrey;
+        }
+        h2 {
+            text-align: center;
+        }
+        label {
+            margin-top: 10px;
+            display: block;
+        }
+        input, select {
+            width:100%;
+            padding: 8px;
+            margin: 5px 10 15px 10;
+            border: 2px solid ;
+            border-radius: 4px;
+        }
+        .checkbox-group {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>LOGIN DETAILS</h2>
+    <label for="Name"> Names:</label>
+    <input type="text" id="Names" name="Name" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <label for="gender">Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <hr>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="ERROR">
+    <hr>
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other">
+    <hr>
+    <label for="other">Other</label> 
+
+    <label for="country">Country:</label>
+
+
+
+
+    <select id="country" name="country" required>
+        <option value="usa">United States</option>
+        <option value="canada">Canada</option>
+        <option value="uk">United Kingdom</option>
+        <option value="australia">Australia</option>
+        <option value="Nigeria">Nigeria</option>
+        <input type="text" id="other">
+    </select>
+
+    <label class="checkbox-group">Interests:</label>
+    <input type="checkbox" id="reading" name="interests" value="reading">
+    <label for="reading">Reading</label>
+    <input type="checkbox" id="travelling" name="interests" value="travelling">
+    <label for="travelling">Travelling</label>
+    <input type="checkbox" id="sports" name="interests" value="sports">
+    <label for="sports">Sports</label>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

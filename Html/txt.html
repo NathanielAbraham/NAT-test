@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url('https://t3.ftcdn.net/jpg/02/14/53/92/360_F_214539232_YnUrtuwUEt84gHuU0qG8l7OwZvH4rnPG.jpg');
+            background-size: cover;
+        }
+        label{
+            padding-top: 2px;
+            display: block;
+            margin-bottom: 2px;
+            margin-top:2px;
+
+        }
+        ul{
+            position: relative;
+            display:flex;
+            flex-direction: colomn;
+            gap: 30px;
+            
+        }
+        ul li{
+            position: relative;
+            list-style: none;
+        }
+        .submit-btn{
+            background-color: #1e272e;
+            color: white;
+            border:none;
+            padding:15px 30px;
+            margin-top: 12px;
+            font-size: 15px;
+            text-transform: uppercase;
+            cursor: pointer;
+            border-radius: 5px;
+            letter-spacing: 2px;
+            font-weight: bold;
+            transition: box-shadow 0.3 , transform 0.2s;
+        }
+        .submit-btn:hover {
+            color: rgb(24, 136, 170);
+            opacity:0.6 ;
+            background-color: white;
+
+        }
+        .container img {
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid rgba 255, 255, 255, 0.684;
+            transition: all ease-in-out 0.5s;
+            text-align: center;
+            place-items: center;
+        }
+        .container img:hover {
+            width:25%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NATHANIEL'S PORTFOLIO </h1>
+        <nav>
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+<section id="Home">
+    <h2> Home</h2>
+    <div class="container">
+
+        <img src=""
+        <img src="" width="200" height="250" alt="Nat">
+        <img src="https://img.freepik.com/premium-photo/abstract-modern-tech-programming-code-screen-developer-c-programming-language-computer-script_505353-91.jpg?ga=GA1.1.2081236647.1741781485&semt=ais_authors_boost" width="200" height="250" alt="Nat">
+        <img src="WhatsApp Image 2025-03-11 at 22.39.22_0bad2f95.jpg" width="220" height="250" alt="Nat2">
+        <img src="https://www.freepik.com/free-psd/web-design-poster-template_11321856.htm#fromView=search&page=1&position=5&uuid=0df13d80-0bd8-438c-b3b2-5a55544a7be4&query=web+design+poster" width="200" height="200">
+        <img src="https://www.freepik.com/premium-psd/cloud-hosting-server-business-promotion-social-media-banner-instagram-post-template_128525368.htm#fromView=search&page=1&position=14&uuid=0df13d80-0bd8-438c-b3b2-5a55544a7be4&query=web+design+poster">
+    </div>
+</section>
+  <section id="about">
+    <h2>About Me</h2>
+    <p> As a front-end developer, I focus on building the visual and interactive aspects of websites and web applications. I use HTML to structure content, CSS to style it, and JavaScript to add interactivity and dynamic behavior. My works are visually appealing, user-friendly, and responsive across different devices. I also collaborate with designers to turn mockups into functional code and optimize user experiences. Staying updated with new front-end frameworks and tools, like React or Vue.js, will be essential to keep up with industry trends. Currently learning JavaScript to add up to the skills i already have and then React</p>
+  </section>
+  <section id="Projects">
+    <h2>Projects</h2>
+    <ul> 
+        <li> weather app</li>
+        <li> Portfolio</li>
+        <li> clock</li>
+        <li> static website </li>
+    </ul>
+    <p>Projects were last updated<b></b> 02/25<b></b></p>
+  </section>
+  <section id="Contact">
+    <h3> Contact</h3>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            
+            <button class="submit-btn">Submit</button>
+          </form>
+          <footer>
+            <p>&copy; 2025 Chapo <br> Follow me on LinkedIn @ NATHANIEL ABRAHAM
+                Twitter @ chapothegreat</p>
+          </footer>
+      
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
